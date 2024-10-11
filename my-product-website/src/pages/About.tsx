@@ -21,7 +21,7 @@ const About: React.FC = () => {
       {/* Brand Image with Caption */}
       <div className="brand-image-container">
         <img
-          src="https://www.example.com/makeup-artist.jpg"
+          src="https://media.allure.com/photos/5f36302132d731b9a6880653/master/w_1280%2Cc_limit/bliss-clear-genius-acne-treatment-collection.jpg"
           alt="Beauty Bliss - Empowering Confidence"
           className="brand-image"
         />
@@ -38,33 +38,11 @@ const About: React.FC = () => {
           We started small but have always held the belief that makeup is for everyone. Over the years, we've built a community of makeup enthusiasts who believe in self-expression, creativity, and inclusivity.
         </p>
       </section>
-
-      {/* Meet the Team */}
-      <section className="team">
-        <h2>Meet Our Team</h2>
-        <div className="team-members">
-          <div className="team-member">
-            <img
-              src="https://www.example.com/team-member1.jpg"
-              alt="Founder Jane Doe"
-              className="team-image"
-            />
-            <p>Jane Doe - Founder & CEO</p>
-          </div>
-          <div className="team-member">
-            <img
-              src="https://www.example.com/team-member2.jpg"
-              alt="Creative Director John Smith"
-              className="team-image"
-            />
-            <p>John Smith - Creative Director</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
 
 export default About;
+
 
 
